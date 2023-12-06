@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Boca-Juniors";
+    src: url(./Fonts/CollegiateBlackFLF.ttf) format('truetype');
+}
+
+.font-cabj{
+    font-family: 'Boca-Juniors', sans-serif;
+    color: #FDCC25;
+}
+
+.bg-loader {
+    background-image: url(/star.jpg);
+    background-clip: content-box;
+    background-size: 50px;
+    background-repeat: round;
+}
